@@ -10,6 +10,7 @@ function initTabNav() {
       tabContent.forEach((section) => {
         section.classList.remove("ativo");
       });
+      
       tabContent[index].classList.add("ativo");
     }
 
@@ -17,7 +18,9 @@ function initTabNav() {
       itemMenu.addEventListener("click", function () {
         activeTab(index);
       });
+
     });
+
   }
 }
 initTabNav();

@@ -210,7 +210,7 @@ margin-bottom: 1rem;
   font-weight: bold;
 }
 
-@media(max-width:700px){
+/* @media(max-width:700px){
   body{
     grid-template-columns: 1fr;
   }
@@ -234,11 +234,11 @@ margin-bottom: 1rem;
   .menu{
     margin-top: 0px;
   }
-  .copy{
+  .copy{ 
     margin-bottom: 0px;
   }
   
-}
+} */
 
 /* javaScript */
 
